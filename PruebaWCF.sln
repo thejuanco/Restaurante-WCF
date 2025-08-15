@@ -5,6 +5,12 @@ VisualStudioVersion = 17.14.36212.18 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaWCF", "PruebaWCF\PruebaWCF.csproj", "{DC79509B-A9A7-4DC3-9EA4-19847B013B85}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Bibliotecas", "00.Bibliotecas", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Dominio", "01.Dominio", "{1F8FA786-3487-444A-B5CD-4EC2DF41B238}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Servicios", "02.Servicios", "{4D779AED-E62F-4137-9D08-B2940F3A896E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +24,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC79509B-A9A7-4DC3-9EA4-19847B013B85} = {4D779AED-E62F-4137-9D08-B2940F3A896E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DFB91AF-2FD6-47E5-AE5D-418C09521F66}
